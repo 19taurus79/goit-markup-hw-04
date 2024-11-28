@@ -59,6 +59,9 @@ button {
     background: #f4f4fd;
     justify-content: center;
     /* display: flex; */
+    /* min-height: 112px; */
+    /* width: 100%; */
+    border: none;
 }
 .portfolio-list {
     display: flex;
@@ -207,6 +210,16 @@ button {
 /* #endregion hero */
 
 /* #region section-first */
+.icon-rectangle{
+    border: 1px solid #8e8f99;
+        border-radius: 4px;
+        min-height: 112px;
+        background-color: #f4f4fd;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8px;
+}
 .first-list {
     display: flex;
     gap: 24px;
