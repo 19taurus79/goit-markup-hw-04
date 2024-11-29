@@ -247,7 +247,7 @@ border-radius: 2px;
         margin: 48px auto 0;
         transition-property: background-color;
         transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .order-service:hover, .order-service:focus{
