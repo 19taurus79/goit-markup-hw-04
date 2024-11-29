@@ -167,9 +167,7 @@ button {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        transition-property: color;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        
 }
 .address-data:hover, .address-data:focus{
  color: #404bbf;
@@ -184,6 +182,9 @@ button {
 } */
 .address-data-reference {
     color: #434455;
+    transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-list .menu-nav:first-child .menu-nav-reference{
     color: #404bbf;
