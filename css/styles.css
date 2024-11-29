@@ -156,10 +156,10 @@ button {
         color: #2e2f42;
         /* padding: 24px 0; */
 }
-.menu-nav:first-child{
+/* .menu-nav:first-child{
     position: relative;
         color: #404bbf;
-}
+} */
 
 .address-data{
     font-weight: 400;
@@ -181,6 +181,27 @@ button {
 } */
 .address-data-reference {
     color: #434455;
+}
+.menu-list .menu-nav:first-child .menu-nav-reference{
+    color: #404bbf;
+    position: relative;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4,
+        0,
+        0.2,
+        1);
+
+}
+.menu-list .menu-nav:first-child .menu-nav-reference::after{
+content: "";
+width: 100%;
+position: absolute;
+left: 0;
+bottom: -1px;
+height: 4px;
+background-color: #404bbf;
+border-radius: 2px;
 }
 /* #endregion header */
 
