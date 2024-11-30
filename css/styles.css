@@ -499,6 +499,9 @@ footer .container {
 .footer-items {
   width: 40px;
   height: 40px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icons-referense {
   width: 100%;
@@ -509,8 +512,8 @@ footer .container {
   align-items: center;
   justify-content: center;
 }
-footer .footer-list-icons .footer-icons .footer-icons-referense:hover,
-footer .footer-list-icons .footer-icons .footer-icons-referense:focus {
+footer .footer-list-icons .footer-items .footer-icons-referense:hover,
+footer .footer-list-icons .footer-items .footer-icons-referense:focus {
   background-color: #31d0aa;
 }
 .footer-icon {
